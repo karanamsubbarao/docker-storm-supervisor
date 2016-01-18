@@ -1,7 +1,6 @@
 # docker-storm-supervisor
 
-
-Run Worker with
+Run Storm Worker with
 
 ```
 docker run -d --link zookeeper:zookeeper --link nimbus:nimbus --restart always --name worker0 karanamsubbarao/docker-storm-supervisor
